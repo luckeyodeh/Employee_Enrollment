@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Employee Enrollment App</string>
+    <string name="note_text_no_employee_found_yet_kindly_add_one">No Employee Found. Kindly add one.</string>
+    <string name="image_content_description">image</string>
+    <string name="edit_text_hint_employeeID">Employee ID</string>
+    <string name="edit_text_hint_name">Name</string>
+    <string name="edit_text_hint_dob">Date of birth</string>
+    <string name="edit_text_hint_doe">Date of employment</string>
+    <string name="text_add_image">ADD IMAGE</string>
+    <string name="btn_text_save">SAVE</string>
+</resources>
