@@ -23,12 +23,12 @@
         </activity>
 
         <activity android:name=".activities.EmployeeDetailsActivity"
-            android:label="EMPLOYEE DETAILS"
+            android:label="Employee Details"
             android:screenOrientation="portrait"
             android:theme="@style/CustomNoActionBarTheme"/>
 
         <activity android:name=".activities.AddEmployeeActivity"
-            android:label="ADD EMPLOYEE"
+            android:label="Add Employee"
             android:screenOrientation="portrait"
             android:theme="@style/CustomNoActionBarTheme"
             />

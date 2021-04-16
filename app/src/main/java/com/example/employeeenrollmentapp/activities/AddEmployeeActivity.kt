@@ -161,14 +161,6 @@ class AddEmployeeActivity : AppCompatActivity(), View.OnClickListener {
                                 finish()//finishing activity
                             }
                         }
-//                        else {
-//                            val updateHappyPlace = dbHandler.updateHappyPlace(employeeModel)
-//
-//                            if (updateHappyPlace > 0) {
-//                                setResult(Activity.RESULT_OK);
-//                                finish()//finishing activity
-//                            }
-//                        }
                     }
                 }
             }
@@ -268,14 +260,6 @@ class AddEmployeeActivity : AppCompatActivity(), View.OnClickListener {
         // Get the context wrapper instance
         val wrapper = ContextWrapper(applicationContext)
 
-        // Initializing a new file
-        // The bellow line return a directory in internal storage
-        /**
-         * The Mode Private here is
-         * File creation mode: the default mode, where the created file can only
-         * be accessed by the calling application (or all applications sharing the
-         * same user ID).
-         */
         var file = wrapper.getDir(IMAGE_DIRECTORY, Context.MODE_PRIVATE)
 
         // Create a file to save the image
